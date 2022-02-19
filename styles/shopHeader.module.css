@@ -1,0 +1,9 @@
+.link {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.section {
+    margin: 0 3rem;
+    justify-content: space-between;
+}

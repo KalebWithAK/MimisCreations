@@ -1,0 +1,18 @@
+.header {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, var(--pink), var(--orange));
+}
+
+.header > * {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.h1 {
+    font-family: 'Dancing Script', serif;
+    color: var(--blue);
+}
