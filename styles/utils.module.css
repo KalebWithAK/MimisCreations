@@ -5,6 +5,7 @@
 }
 
 .cardContainer {
+    list-style: none;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@
     color: var(--blue);
 }
 
-.card > img {
+.cardImg {
     display: block;
     width: 80%;
     height: 30%;
@@ -37,7 +38,7 @@
     border-radius: 1em 1em 0 0;
 }
 
-.card > div {
+.cardInfo {
     padding: 1rem, 2rem;
     margin-left: 0.25rem;
 }

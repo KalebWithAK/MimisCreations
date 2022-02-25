@@ -1,5 +1,5 @@
 .header {
-    padding: 0 2rem;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,9 +10,23 @@
     background: white;
     border-radius: 0.5rem;
     padding: 1rem;
+    text-align: center;
+}
+
+.header > *:nth-child(1), .header > *:nth-child(3) {
+    width: 3rem;
+    height: 6rem;
+}
+.header *:nth-child(2) {
+    height: 6rem;
+}
+.header *:nth-child(2) * {
+    margin-top: -0.25rem;
 }
 
 .h1 {
     font-family: 'Dancing Script', serif;
+    font-size: 22px;
     color: var(--blue);
+    
 }

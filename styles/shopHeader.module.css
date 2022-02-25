@@ -1,9 +1,22 @@
-.link {
-    display: inline;
-    margin-left: 2rem;
+.section {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
-.section {
-    margin: 0 3rem;
+.form {
+    margin: 0rem;
+}
+
+.form, .section > div {
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.form > * {
+    display: block;
+
 }

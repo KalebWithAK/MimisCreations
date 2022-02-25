@@ -24,18 +24,7 @@ a:hover {
 
 main {
   background: linear-gradient(45deg, var(--blue), white);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 10rem;
-  margin: auto;
-}
-
-input[type='text'], input[type='password'], input[type='email'] {
-  margin-bottom: 1.5rem;
-  height: 1rem;
+  min-height: 32rem;
 }
 
 footer {
